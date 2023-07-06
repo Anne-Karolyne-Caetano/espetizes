@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadoras</title>
+    <link rel="stylesheet" href="estil.css">
+</head>
+<body>
+    <header>
+        <h1>ESPetize</h1>
+        <nav>
+            <section class="navint" id="bloco1">
+                <a href="../direc.html">Início</a>
+            </section>
+        </nav>     
+    </header>
+    <main> 
+        <section id="container">
+                <h2 id="resger" class="buttit">Resistores</h2>
+                    <section id="resistores">     
+                        <input type="number" id="res1" placeholder="VALOR DE R1" class="entr">
+                        <input type="number" id="res2" placeholder="VALOR DE R2"class="entr">
+                        <input type="number" id="res3" placeholder="VALOR DE R3"class="entr">
+                        <article class="cont">
+                            <span id="RESRES">
+                                <p>resultado:</p>
+                                <p id="resres"></p>
+
+                            </span>
+                            <article class="bot">
+                                <input type="button" value="Série" class="submit" onclick="resistSerie( )">
+                                <input type="button" value="Paralela" class="submit" onclick="resistParalela( )">
+                            </article>
+                        </article>
+                    </section> 
+
+                    <h2 class="buttit">Indutores</h2>
+                        <section id="indutores">              
+                            <input type="number" id="ind1" placeholder="VALOR DO IND.1"class="entr">
+                            <input type="number" id="ind2" placeholder="VALOR DO IND.2"class="entr">
+                            <input ttype="number"id="ind3" placeholder="VALOR DO IND.3"class="entr">       
+                            <article class="cont">
+                                <span id="RESIND">
+                                    <p>resultado:</p>
+                                    <p id="resind"></p>
+                                </span>
+                                <article class="bot">
+                                    <input type="button" value="Série" class="submit" onclick="indutSerie( )">
+                                    <input type="button" value="Paralela" class="submit" onclick="indutParalela( )"> 
+                                </article>
+                            </article>   
+                        </section>
+
+                    <h2 class="buttit">Capacitores</h2>
+                        <section id="capacitores">              
+                            <input type="number" id="cap1" placeholder="VALOR DO CAP.1"class="entr">
+                            <input type="number" id="cap2" placeholder="VALOR DO CAP.2"class="entr">
+                            <input type="number" id="cap3" placeholder="VALOR DO CAP.3"class="entr">  
+                            <article class="cont">
+                                <span id="RESCAP">
+                                    <p>resultado:</p>
+                                    <p id="rescap"></p>
+                                </span>
+                                <article class="bot">
+                                    <input type="button" value="Série" class="submit" onclick="capacitSerie( )">
+                                    <input type="button" value="Paralela" class="submit" onclick="capacitParalela( )">
+                                </article>
+                            </article>    
+                        </section>
+        </section>
+    </main>
+    <script src="calc.js"></script>
+    <footer>
+        <p>ESPetize - 2023</p>
+    </footer>
+</body>
+</html>

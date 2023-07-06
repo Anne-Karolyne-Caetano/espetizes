@@ -1,0 +1,136 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;    
+    color:#F0C505;
+    background-color:#111111;  
+}
+header{
+    font-size: 1.2rem;
+}
+h1{
+    text-align: center;
+    padding: 25px 0;
+    color: #f0c505;
+}
+nav{
+    display: flex;
+    padding: 0px;
+    margin: 0;
+    font-size: 1rem;
+    background-color:#191919;
+    /*width: 100%;*/
+    justify-content: space-between;
+    box-shadow: #000 5px 5px 5px;
+}
+nav a{
+    padding: 0 3px;
+    color: #f0c505;
+    margin: 0;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #f0c505;
+    color: #111111;
+    box-shadow: #000 4px 4px 4px;
+}
+nav a:active{
+    background-color: #f0c505;
+    color: #111111;
+    box-shadow: #000 2px -1px 2px;
+}
+.navint{
+    margin: 0px 10px;
+}
+main{
+    background-color: #323232;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    background-color: #191919;
+    border-radius: 12px;
+    border: #F0C505 solid 6px;
+    padding: 60px;
+    width: 80vw;
+    min-width: 100px;
+    font-size: 1.8vw;
+    font-size: 20px;
+    min-height: 380px;
+    box-shadow: 7px 7px 5px #0000008b;
+    margin: 20px 0px;
+}
+.entradas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.entr{
+    background-color: #272727;
+    border: #000 solid 5px;
+    border-radius: 6px;
+    width: 55vw;
+    color: #F0C505;
+    padding: 5px 0px;
+    box-shadow: 5px 5px 5px #0000008b;
+    margin: 1%;
+    justify-content: center;
+}
+.buttit{
+    border: none;
+    background-color: none;
+    color: #F0C505;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 10px;
+}
+.cont{
+    display: flex;
+    justify-content: space-between;
+}
+.submit{
+    padding: 0.8vw 2vw;
+    border-radius: 6px;
+    border: #F0C505 solid 4px;
+    background-color: #272727;
+    color: #F0C505;
+    font-size: 20px;
+    font-family: monospace;  
+    box-shadow: 3px 3px 3px #0000008b;
+    margin: 1vw;
+   
+}
+.submit:hover{
+    scale: 1.02;
+    cursor: pointer; 
+}
+.submit:active{
+    scale: 1.0;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bot{
+    width: 50%;
+    min-width: 100px;
+    justify-content: space-between;
+}
+footer{
+    background-color: #111111;
+    border-top: #fdca00 solid 8px;
+    height: 12vh;
+    color: #fdca00;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    font-size: 1.3rem;
+    bottom: 0;
+}
