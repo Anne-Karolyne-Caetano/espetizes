@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatize</title>
+    <link rel="stylesheet" href="das.css">
+</head>
+<body>
+    <header>
+        <h1>ESPetize</h1>
+        <nav>   
+            <article>
+                <button  onclick="inic( )">Início</button>
+            </article>
+            <article>
+                <button  onclick="on( )">ON</button>
+                <button  onclick="off( )">OFF</button>
+            </article>
+        </nav>
+    </header>
+    <main>
+    <section class="container">
+        <section id="circular-progress1">
+            <span class="progress-value">0%</span>
+        </section>
+        <span class="text">Nível</span>
+    </section>
+    <section class="container">
+        <section id="circular-progress2">
+            <span class="progress-value">0%</span>
+        </section>
+        <span class="text">Humidade</span>
+    </section>
+    <section class="container">
+        <section id="circular-progress3">
+            <span class="progress-value">0%</span>
+        </section>
+        <span class="text">Temperatura</span>
+    </section>
+    <section class="container">
+        <section id="circular-progress4">
+            <span class="progress-value">0%</span>
+        </section>
+        <span class="text">Pluviosidade</span>
+    </section>
+    </main>
+    <section id="agrupbot">
+        <img src="img/niv.png" alt="" id="B1" class="bot"  onclick="niv( )">
+        <img src="img/hum.png" alt="" id="B2" class="bot" onclick="hum( )">
+        <img src="img/temp.png" alt="" id="B3" class="bot" onclick="temp( )">
+        <img src="img/pluvbai.png" alt="" id="B4" class="bot" onclick="pluv( )">
+    </section>
+    <footer>
+        <p>DeshAuto</p>
+    </footer>
+    <script src="JS.js"></script>
+</body>
+</html>

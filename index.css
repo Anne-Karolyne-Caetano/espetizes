@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;    
+    color:#F0C505;
+    background-image: url("img/Cadastre-se.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(+20%);
+}
+.container{
+    background-color: #191919;
+    border-radius: 12px;
+    border: #F0C505 solid 8px;
+    padding: 0px 20px 50px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 80vw;
+    min-width: 220px;
+    
+    
+}
+ .cont{
+    background-color: #191919;
+    border-radius: 12px;
+    padding: 0px 20px 50px 20px;
+    width: 24vw;
+    min-width: 200px;
+    font-size: 1.8vw;
+    font-size: 20px;
+    display: flex;
+    min-height: 380px;
+    max-height: 60%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transform: translateY(+10%);
+}
+.entr{
+    background-color: #272727;
+    border: #000 solid 5px;
+    border-radius: 6px;
+    width: 100%;
+    color: #F0C505;
+    padding: 5px 2px;
+    box-shadow: 5px 5px 5px #0000008b;
+    margin: 0.9vw auto;
+}
+.entr::placeholder{
+    color: #F0C505;
+}
+.sub{
+    margin-top: 35px;
+    padding: 0.8vw 2vw;
+    border-radius: 6px;
+    border: #F0C505 solid 4px;
+    background-color: #272727;
+    color: #F0C505;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 3px 3px 3px #0000008b;
+}
+.sub:hover{
+    scale: 1.03;
+}
+.sub:active{
+    scale: 1.0;
+    box-shadow: 2px 2px 2px #0000008b;
+}
+.desabilite{
+    display: none;
+}
+
+/*.agrup{
+    text-align: left;
+    font-size: 1.2vw;
+    margin: auto;
+    width: 26vw;
+    max-width: 90%;
+    margin-top: 25px;
+}
+.agrup p{
+    margin: 0px;
+    padding: 1px;
+}
+.entrada{
+    background-color: #272727;
+    border: #000 solid 5px;
+    border-radius: 6px;
+    width: 100%;
+    color: #F0C505;
+    padding: 3px;
+    box-shadow: 5px 5px 5px #0000008b;
+}
+.bot{
+    margin-top: 35px;
+    padding: 0.8vw 2vw;
+    border-radius: 6px;
+    border: #F0C505 solid 4px;
+    background-color: #272727;
+    color: #F0C505;
+    font-size: 1.6vw;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 3px 3px 3px #0000008b;
+}
+.bot:hover{
+    scale: 1.03;
+}
+.bot:active{
+    scale: 1.0;
+    box-shadow: 2px 2px 2px #0000008b;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body{
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;    
+    color:#000;
+    background-color: #2a2a2a;
+    display: flex;
+    margin: 0;
+}
+main{
+    background-color: #545454;
+    border-radius: 12px;
+    border: #F0C505 solid 5px;
+    padding: 0px 20px 50px 20px;
+    color: #F0C505;
+  display: flex;
+    max-width: 40%;
+}
+#cadastro{
+    max-width: 48%;
+    padding: 10px;
+    margin: 4px 8px 8px 8px;
+    text-align: center;
+}
+
+.entrada{
+    background-color: #2a2a2a;
+    color: #F0C505;
+    padding: 1px 7px;
+    border: #000 solid 4px;
+    border-radius: 6px;
+    margin: 8px;
+}
+.entrada::placeholder{
+    color: #F0C505;
+}
+.bot{
+   background-color:#2a2a2a;
+   padding: 9px 18px;
+   border: #F0C505 solid 4px;
+   border-radius: 8px;
+   color: #F0C505;

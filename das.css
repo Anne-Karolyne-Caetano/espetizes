@@ -1,0 +1,187 @@
+*{  
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --progniv:30;
+}
+body{
+    width: 100%;
+    font-family: monospace;   
+    color:#000;
+    background-color: #2a2a2a;
+}
+header{
+    background-color:#111111;
+    color: #f0c505;
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    padding: 30PX 0;
+}
+nav{
+    background-color: #191919;
+    display: flex;
+    justify-content: space-between;
+
+}
+nav button{
+    margin: 0px;
+    padding: 0px 5px;
+    border: none;
+    color: #f0c505;
+    background-color: #191919;
+}
+nav button:hover{
+    scale: 1.1;
+    background-color: #f0c505;
+    color: #000;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top: 5%;
+}
+.container{
+    margin: 1.5%;
+    display: flex;
+    width: 150px;
+    padding: 15px 0;
+    border-radius: 8px;
+    background-color: #141414;
+    flex-direction: column;
+    align-items: center;
+    border: #f0c505 solid 2px;
+}
+#circular-progress1{
+    position: relative;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background: conic-gradient(#fdca00 270deg, #cacaca 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#circular-progress1::before{
+    content: "";
+    position: absolute;
+    min-height: 70px;
+    min-width: 70px;
+    border-radius: 50%;
+    background-color: #141414;
+}
+
+#circular-progress2{
+    position: relative;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background: conic-gradient(#fdca00 160deg, #cacaca 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#circular-progress2::before{
+    content: "";
+    position: absolute;
+    min-height: 70px;
+    min-width: 70px;
+    border-radius: 50%;
+    background-color: #141414;
+}
+
+#circular-progress3{
+    position: relative;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background: conic-gradient(#fdca00 80deg, #cacaca 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#circular-progress3::before{
+    content: "";
+    position: absolute;
+    min-height: 70px;
+    min-width: 70px;
+    border-radius: 50%;
+    background-color: #141414;
+}
+
+#circular-progress4{
+    position: relative;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background: conic-gradient(#fdca00 80deg, #cacaca 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#circular-progress4::before{
+    content: "";
+    position: absolute;
+    min-height: 70px;
+    min-width: 70px;
+    border-radius: 50%;
+    background-color: #141414;
+}
+
+.text{
+    color: #fdca00;
+    padding: 20px;
+}
+#agrupbot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding-bottom: 30px;
+}
+.bot{
+    margin-top: 1rem;
+    display: flex;
+    width: 12%;
+    min-width: 160px;
+    /*height: 90px;*/
+    padding:0;
+    border-radius: 8px;
+    background-color: #141414;
+    flex-direction: column;
+    align-items: center;
+    border: #f0c505 solid 4px;
+    box-shadow: #000 2px 2px 4px;
+}
+.bot img{
+    width: 100%;
+}
+.bot:hover{
+    scale: 1.03;
+    cursor: pointer;
+}
+.bot:active{
+    scale: 1.0;
+}
+footer{
+    background-color: #141414;
+    border-top: #fdca00 solid 5px;
+    height: 80px;
+    color: #fdca00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    /*position: fixed;*/
+    bottom:0;
+    left:0;
+    width: 100%;
+}
